@@ -6,7 +6,6 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#define PF_SUPPORT_FP
 #include "pf_all.h"
 #import <Foundation/Foundation.h>
 

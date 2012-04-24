@@ -272,6 +272,10 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-D",
+					PF_SUPPORT_FP,
+				);
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -292,6 +296,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_CFLAGS = (
+					"-D",
+					PF_SUPPORT_FP,
+				);
 				SDKROOT = macosx;
 			};
 			name = Release;
