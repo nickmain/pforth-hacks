@@ -219,7 +219,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cp -R ../../pforth_v27/fth/* ${CONFIGURATION_BUILD_DIR}\ncd ${CONFIGURATION_BUILD_DIR}\n./pforth -i system.fth";
+			shellScript = "cp -R ${PROJECT_DIR}/../../pforth_v27/fth/* ${CONFIGURATION_BUILD_DIR}\ncd ${CONFIGURATION_BUILD_DIR}\n./pforth -i system.fth";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -341,6 +341,7 @@
 				AB28851F15466593000FA071 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
