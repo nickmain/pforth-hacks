@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB28851315466593000FA071 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB28851215466593000FA071 /* Foundation.framework */; };
+		AB28851615466593000FA071 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB28851515466593000FA071 /* main.m */; };
+		AB28854215466623000FA071 /* pf_cglue.c in Sources */ = {isa = PBXBuildFile; fileRef = AB28852215466623000FA071 /* pf_cglue.c */; };
+		AB28854315466623000FA071 /* pf_clib.c in Sources */ = {isa = PBXBuildFile; fileRef = AB28852415466623000FA071 /* pf_clib.c */; };
+		AB28854415466623000FA071 /* pf_core.c in Sources */ = {isa = PBXBuildFile; fileRef = AB28852615466623000FA071 /* pf_core.c */; };
+		AB28854515466623000FA071 /* pf_inner.c in Sources */ = {isa = PBXBuildFile; fileRef = AB28852C15466623000FA071 /* pf_inner.c */; };
+		AB28854615466623000FA071 /* pf_io_none.c in Sources */ = {isa = PBXBuildFile; fileRef = AB28852D15466623000FA071 /* pf_io_none.c */; };
+		AB28854715466623000FA071 /* pf_io.c in Sources */ = {isa = PBXBuildFile; fileRef = AB28852E15466623000FA071 /* pf_io.c */; };
+		AB28854815466623000FA071 /* pf_main.c in Sources */ = {isa = PBXBuildFile; fileRef = AB28853015466623000FA071 /* pf_main.c */; };
+		AB28854915466623000FA071 /* pf_mem.c in Sources */ = {isa = PBXBuildFile; fileRef = AB28853115466623000FA071 /* pf_mem.c */; };
+		AB28854A15466623000FA071 /* pf_save.c in Sources */ = {isa = PBXBuildFile; fileRef = AB28853315466623000FA071 /* pf_save.c */; };
+		AB28854B15466623000FA071 /* pf_text.c in Sources */ = {isa = PBXBuildFile; fileRef = AB28853515466623000FA071 /* pf_text.c */; };
+		AB28854C15466623000FA071 /* pf_words.c in Sources */ = {isa = PBXBuildFile; fileRef = AB28853915466623000FA071 /* pf_words.c */; };
+		AB28854D15466623000FA071 /* pfcompil.c in Sources */ = {isa = PBXBuildFile; fileRef = AB28853C15466623000FA071 /* pfcompil.c */; };
+		AB28854E15466623000FA071 /* pfcustom.c in Sources */ = {isa = PBXBuildFile; fileRef = AB28853E15466623000FA071 /* pfcustom.c */; };
+		AB2885501546662E000FA071 /* pf_io_posix.c in Sources */ = {isa = PBXBuildFile; fileRef = AB28854F1546662E000FA071 /* pf_io_posix.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB28850E15466593000FA071 /* pforth */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = pforth; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB28851215466593000FA071 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB28851515466593000FA071 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB28851815466593000FA071 /* pforth-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pforth-Prefix.pch"; sourceTree = "<group>"; };
+		AB28852115466623000FA071 /* pf_all.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pf_all.h; path = ../../../pforth_v27/csrc/pf_all.h; sourceTree = "<group>"; };
+		AB28852215466623000FA071 /* pf_cglue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pf_cglue.c; path = ../../../pforth_v27/csrc/pf_cglue.c; sourceTree = "<group>"; };
+		AB28852315466623000FA071 /* pf_cglue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pf_cglue.h; path = ../../../pforth_v27/csrc/pf_cglue.h; sourceTree = "<group>"; };
+		AB28852415466623000FA071 /* pf_clib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pf_clib.c; path = ../../../pforth_v27/csrc/pf_clib.c; sourceTree = "<group>"; };
+		AB28852515466623000FA071 /* pf_clib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pf_clib.h; path = ../../../pforth_v27/csrc/pf_clib.h; sourceTree = "<group>"; };
+		AB28852615466623000FA071 /* pf_core.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pf_core.c; path = ../../../pforth_v27/csrc/pf_core.c; sourceTree = "<group>"; };
+		AB28852715466623000FA071 /* pf_core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pf_core.h; path = ../../../pforth_v27/csrc/pf_core.h; sourceTree = "<group>"; };
+		AB28852815466623000FA071 /* pf_float.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pf_float.h; path = ../../../pforth_v27/csrc/pf_float.h; sourceTree = "<group>"; };
+		AB28852915466623000FA071 /* pf_guts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pf_guts.h; path = ../../../pforth_v27/csrc/pf_guts.h; sourceTree = "<group>"; };
+		AB28852A15466623000FA071 /* pf_host.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pf_host.h; path = ../../../pforth_v27/csrc/pf_host.h; sourceTree = "<group>"; };
+		AB28852B15466623000FA071 /* pf_inc1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pf_inc1.h; path = ../../../pforth_v27/csrc/pf_inc1.h; sourceTree = "<group>"; };
+		AB28852C15466623000FA071 /* pf_inner.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pf_inner.c; path = ../../../pforth_v27/csrc/pf_inner.c; sourceTree = "<group>"; };
+		AB28852D15466623000FA071 /* pf_io_none.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pf_io_none.c; path = ../../../pforth_v27/csrc/pf_io_none.c; sourceTree = "<group>"; };
+		AB28852E15466623000FA071 /* pf_io.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pf_io.c; path = ../../../pforth_v27/csrc/pf_io.c; sourceTree = "<group>"; };
+		AB28852F15466623000FA071 /* pf_io.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pf_io.h; path = ../../../pforth_v27/csrc/pf_io.h; sourceTree = "<group>"; };
+		AB28853015466623000FA071 /* pf_main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pf_main.c; path = ../../../pforth_v27/csrc/pf_main.c; sourceTree = "<group>"; };
+		AB28853115466623000FA071 /* pf_mem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pf_mem.c; path = ../../../pforth_v27/csrc/pf_mem.c; sourceTree = "<group>"; };
+		AB28853215466623000FA071 /* pf_mem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pf_mem.h; path = ../../../pforth_v27/csrc/pf_mem.h; sourceTree = "<group>"; };
+		AB28853315466623000FA071 /* pf_save.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pf_save.c; path = ../../../pforth_v27/csrc/pf_save.c; sourceTree = "<group>"; };
+		AB28853415466623000FA071 /* pf_save.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pf_save.h; path = ../../../pforth_v27/csrc/pf_save.h; sourceTree = "<group>"; };
+		AB28853515466623000FA071 /* pf_text.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pf_text.c; path = ../../../pforth_v27/csrc/pf_text.c; sourceTree = "<group>"; };
+		AB28853615466623000FA071 /* pf_text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pf_text.h; path = ../../../pforth_v27/csrc/pf_text.h; sourceTree = "<group>"; };
+		AB28853715466623000FA071 /* pf_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pf_types.h; path = ../../../pforth_v27/csrc/pf_types.h; sourceTree = "<group>"; };
+		AB28853815466623000FA071 /* pf_win32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pf_win32.h; path = ../../../pforth_v27/csrc/pf_win32.h; sourceTree = "<group>"; };
+		AB28853915466623000FA071 /* pf_words.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pf_words.c; path = ../../../pforth_v27/csrc/pf_words.c; sourceTree = "<group>"; };
+		AB28853A15466623000FA071 /* pf_words.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pf_words.h; path = ../../../pforth_v27/csrc/pf_words.h; sourceTree = "<group>"; };
+		AB28853B15466623000FA071 /* pfcompfp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pfcompfp.h; path = ../../../pforth_v27/csrc/pfcompfp.h; sourceTree = "<group>"; };
+		AB28853C15466623000FA071 /* pfcompil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pfcompil.c; path = ../../../pforth_v27/csrc/pfcompil.c; sourceTree = "<group>"; };
+		AB28853D15466623000FA071 /* pfcompil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pfcompil.h; path = ../../../pforth_v27/csrc/pfcompil.h; sourceTree = "<group>"; };
+		AB28853E15466623000FA071 /* pfcustom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pfcustom.c; path = ../../../pforth_v27/csrc/pfcustom.c; sourceTree = "<group>"; };
+		AB28853F15466623000FA071 /* pfdicdat_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pfdicdat_arm.h; path = ../../../pforth_v27/csrc/pfdicdat_arm.h; sourceTree = "<group>"; };
+		AB28854015466623000FA071 /* pfinnrfp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pfinnrfp.h; path = ../../../pforth_v27/csrc/pfinnrfp.h; sourceTree = "<group>"; };
+		AB28854115466623000FA071 /* pforth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pforth.h; path = ../../../pforth_v27/csrc/pforth.h; sourceTree = "<group>"; };
+		AB28854F1546662E000FA071 /* pf_io_posix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pf_io_posix.c; path = ../../../pforth_v27/csrc/posix/pf_io_posix.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB28850B15466593000FA071 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB28851315466593000FA071 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB28850315466592000FA071 = {
+			isa = PBXGroup;
+			children = (
+				AB28851415466593000FA071 /* pforth */,
+				AB28851115466593000FA071 /* Frameworks */,
+				AB28850F15466593000FA071 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB28850F15466593000FA071 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB28850E15466593000FA071 /* pforth */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB28851115466593000FA071 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB28851215466593000FA071 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB28851415466593000FA071 /* pforth */ = {
+			isa = PBXGroup;
+			children = (
+				AB288520154665F6000FA071 /* pforth-source */,
+				AB28851515466593000FA071 /* main.m */,
+				AB28851715466593000FA071 /* Supporting Files */,
+			);
+			path = pforth;
+			sourceTree = "<group>";
+		};
+		AB28851715466593000FA071 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB28851815466593000FA071 /* pforth-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB288520154665F6000FA071 /* pforth-source */ = {
+			isa = PBXGroup;
+			children = (
+				AB28854F1546662E000FA071 /* pf_io_posix.c */,
+				AB28852115466623000FA071 /* pf_all.h */,
+				AB28852215466623000FA071 /* pf_cglue.c */,
+				AB28852315466623000FA071 /* pf_cglue.h */,
+				AB28852415466623000FA071 /* pf_clib.c */,
+				AB28852515466623000FA071 /* pf_clib.h */,
+				AB28852615466623000FA071 /* pf_core.c */,
+				AB28852715466623000FA071 /* pf_core.h */,
+				AB28852815466623000FA071 /* pf_float.h */,
+				AB28852915466623000FA071 /* pf_guts.h */,
+				AB28852A15466623000FA071 /* pf_host.h */,
+				AB28852B15466623000FA071 /* pf_inc1.h */,
+				AB28852C15466623000FA071 /* pf_inner.c */,
+				AB28852D15466623000FA071 /* pf_io_none.c */,
+				AB28852E15466623000FA071 /* pf_io.c */,
+				AB28852F15466623000FA071 /* pf_io.h */,
+				AB28853015466623000FA071 /* pf_main.c */,
+				AB28853115466623000FA071 /* pf_mem.c */,
+				AB28853215466623000FA071 /* pf_mem.h */,
+				AB28853315466623000FA071 /* pf_save.c */,
+				AB28853415466623000FA071 /* pf_save.h */,
+				AB28853515466623000FA071 /* pf_text.c */,
+				AB28853615466623000FA071 /* pf_text.h */,
+				AB28853715466623000FA071 /* pf_types.h */,
+				AB28853815466623000FA071 /* pf_win32.h */,
+				AB28853915466623000FA071 /* pf_words.c */,
+				AB28853A15466623000FA071 /* pf_words.h */,
+				AB28853B15466623000FA071 /* pfcompfp.h */,
+				AB28853C15466623000FA071 /* pfcompil.c */,
+				AB28853D15466623000FA071 /* pfcompil.h */,
+				AB28853E15466623000FA071 /* pfcustom.c */,
+				AB28853F15466623000FA071 /* pfdicdat_arm.h */,
+				AB28854015466623000FA071 /* pfinnrfp.h */,
+				AB28854115466623000FA071 /* pforth.h */,
+			);
+			name = "pforth-source";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB28850D15466593000FA071 /* pforth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB28851D15466593000FA071 /* Build configuration list for PBXNativeTarget "pforth" */;
+			buildPhases = (
+				AB28850A15466593000FA071 /* Sources */,
+				AB28850B15466593000FA071 /* Frameworks */,
+				AB2885AB15466978000FA071 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pforth;
+			productName = pforth;
+			productReference = AB28850E15466593000FA071 /* pforth */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB28850515466592000FA071 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = AB28850815466592000FA071 /* Build configuration list for PBXProject "pforth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB28850315466592000FA071;
+			productRefGroup = AB28850F15466593000FA071 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB28850D15466593000FA071 /* pforth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AB2885AB15466978000FA071 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp -R ../../pforth_v27/fth/* ${CONFIGURATION_BUILD_DIR}\ncd ${CONFIGURATION_BUILD_DIR}\n./pforth -i system.fth";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB28850A15466593000FA071 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB28851615466593000FA071 /* main.m in Sources */,
+				AB28854215466623000FA071 /* pf_cglue.c in Sources */,
+				AB28854315466623000FA071 /* pf_clib.c in Sources */,
+				AB28854415466623000FA071 /* pf_core.c in Sources */,
+				AB28854515466623000FA071 /* pf_inner.c in Sources */,
+				AB28854615466623000FA071 /* pf_io_none.c in Sources */,
+				AB28854715466623000FA071 /* pf_io.c in Sources */,
+				AB28854815466623000FA071 /* pf_main.c in Sources */,
+				AB28854915466623000FA071 /* pf_mem.c in Sources */,
+				AB28854A15466623000FA071 /* pf_save.c in Sources */,
+				AB28854B15466623000FA071 /* pf_text.c in Sources */,
+				AB28854C15466623000FA071 /* pf_words.c in Sources */,
+				AB28854D15466623000FA071 /* pfcompil.c in Sources */,
+				AB28854E15466623000FA071 /* pfcustom.c in Sources */,
+				AB2885501546662E000FA071 /* pf_io_posix.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AB28851B15466593000FA071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AB28851C15466593000FA071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AB28851E15466593000FA071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pforth/pforth-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB28851F15466593000FA071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pforth/pforth-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB28850815466592000FA071 /* Build configuration list for PBXProject "pforth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB28851B15466593000FA071 /* Debug */,
+				AB28851C15466593000FA071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB28851D15466593000FA071 /* Build configuration list for PBXNativeTarget "pforth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB28851E15466593000FA071 /* Debug */,
+				AB28851F15466593000FA071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB28850515466592000FA071 /* Project object */;
+}
